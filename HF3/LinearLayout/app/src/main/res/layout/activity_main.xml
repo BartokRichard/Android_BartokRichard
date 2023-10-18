@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <Button
+       android:id="@+id/button4"
+       android:layout_width="392dp"
+       android:layout_height="55dp"
+       android:text="Login"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.473"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.337" />
+
+   <Button
+       android:id="@+id/button5"
+       android:layout_width="195dp"
+       android:layout_height="66dp"
+       android:text="Sign Up"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.953"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.445" />
+
+   <Button
+       android:id="@+id/button6"
+       android:layout_width="195dp"
+       android:layout_height="66dp"
+       android:text="Home"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.041"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.445" />
+
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="97dp"
+       android:layout_height="25dp"
+       android:layout_marginBottom="604dp"
+       android:text="Password: "
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.05"
+       app:layout_constraintStart_toStartOf="parent" />
+
+   <EditText
+       android:id="@+id/editTextTextEmailAddress2"
+       android:layout_width="406dp"
+       android:layout_height="60dp"
+       android:ems="10"
+       android:inputType="textEmailAddress"
+       android:hint="Enter your email"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.052" />
+
+   <EditText
+       android:id="@+id/editTextTextEmailAddress3"
+       android:layout_width="406dp"
+       android:layout_height="60dp"
+       android:ems="10"
+       android:inputType="textEmailAddress"
+       android:hint="Enter your password"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.211" />
+
+   <TextView
+       android:id="@+id/textView"
+       android:layout_width="97dp"
+       android:layout_height="25dp"
+       android:layout_marginBottom="696dp"
+       android:text="Email:"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.05"
+       app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DeleteAndSortList</string>
+    <string-array name="listitems">
+        <item>Hetfo</item>
+        <item>Kedd</item>
+        <item>Szerda</item>
+        <item>Csutortok</item>
+        <item>Pentek</item>
+        <item>Szombat</item>
+        <item>Vasarnap</item>
+    </string-array>
+</resources>
